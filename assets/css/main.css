@@ -8419,6 +8419,14 @@
 			
 	.album-title-header {
 	  font-style: italic;
-	  font-size: 70px;
+	  font-size: 65px;
 	  margin-bottom: 0px;
-	}		
+	}	
+	
+	
+	.spotify-container {
+		position: relative !important; 
+		top: 0px !important;
+		left: -25px !important;
+		list-style: none !important;
+	}
