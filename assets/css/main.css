@@ -8435,4 +8435,25 @@
 		.spotify-container {
 			left: -10px !important;
 		}
+		
+		#itunes {
+		  max-width: 200px !important;
+		  margin: 0 auto !important;
+		}
+	}
+	
+	@media screen and (max-width: 320px) {
+		.spotify-container {
+			max-width: 320px !important;
+		}
+		
+		.spotify-player {
+		  max-width: 250px !important;
+		}
+	}
+	
+	#itunes {
+		position: relative !important;
+		top: -80px !important;
+		left: 0px !important;
 	}
