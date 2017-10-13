@@ -8430,3 +8430,9 @@
 		left: -25px !important;
 		list-style: none !important;
 	}
+	
+	@media screen and (max-width: 426px) {
+		.spotify-container {
+			left: -10px !important;
+		}
+	}
