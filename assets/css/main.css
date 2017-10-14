@@ -8436,30 +8436,15 @@
 		.spotify-container {
 			left: -10px !important;
 		}
-		
-		#itunes {
-		  max-width: 200px !important;
-		  margin: 0 auto !important;
-		  display: none;
-		}
 	}
 	
-	@media screen and (max-width: 320px) {
-		.spotify-container {
-			max-width: 320px !important;
-		}
+	@media screen and (max-width: 321px) {
 		
-		.spotify-player {
-		  max-width: 250px !important;
+		#spotify-large {
+			padding-left: 10px !important;
 		}
 	}
-	
-	#itunes {
-		position: relative !important;
-		top: 90% !important;
-		left: 10px !important;
-		display: none;
-	}
+
 	
 	#email {
 	  margin-bottom: 5px !important;
