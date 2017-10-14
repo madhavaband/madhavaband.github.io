@@ -8429,6 +8429,7 @@
 		top: 0px !important;
 		left: -25px !important;
 		list-style: none !important;
+		margin-bottom: 100px !important;
 	}
 	
 	@media screen and (max-width: 426px) {
@@ -8439,6 +8440,7 @@
 		#itunes {
 		  max-width: 200px !important;
 		  margin: 0 auto !important;
+		  display: none;
 		}
 	}
 	
@@ -8454,6 +8456,11 @@
 	
 	#itunes {
 		position: relative !important;
-		top: -80px !important;
-		left: 0px !important;
+		top: 90% !important;
+		left: 10px !important;
+		display: none;
+	}
+	
+	#email {
+	  margin-bottom: 5px !important;
 	}
